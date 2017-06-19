@@ -13,6 +13,7 @@
 		4478DEDB1EF85F1300BB7417 /* video_background_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4478DED91EF85F1300BB7417 /* video_background_demo.xcdatamodeld */; };
 		4478DEDD1EF85F1300BB7417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478DEDC1EF85F1300BB7417 /* Assets.xcassets */; };
 		4478DEE01EF85F1300BB7417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4478DEDE1EF85F1300BB7417 /* LaunchScreen.storyboard */; };
+		4478DEE81EF8671C00BB7417 /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4478DEE71EF8671C00BB7417 /* video.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4478DEDC1EF85F1300BB7417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4478DEDF1EF85F1300BB7417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4478DEE11EF85F1300BB7417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4478DEE71EF8671C00BB7417 /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video.mov; path = "../../../../Downloads/ios-video-background-swift-master/Video Background/video.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4478DED11EF85F1200BB7417 /* video_background_demo */ = {
 			isa = PBXGroup;
 			children = (
+				4478DEE71EF8671C00BB7417 /* video.mov */,
 				4478DED21EF85F1200BB7417 /* AppDelegate.swift */,
 				4478DED41EF85F1200BB7417 /* ViewController.swift */,
 				4478DED61EF85F1300BB7417 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4478DEE81EF8671C00BB7417 /* video.mov in Resources */,
 				4478DEE01EF85F1300BB7417 /* LaunchScreen.storyboard in Resources */,
 				4478DEDD1EF85F1300BB7417 /* Assets.xcassets in Resources */,
 				4478DED81EF85F1300BB7417 /* Main.storyboard in Resources */,
